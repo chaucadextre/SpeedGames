@@ -1,0 +1,75 @@
++{
+    margin: 0;
+    padding: 0;
+    font-family: "pappins", sans-serif;
+}
+
+body{
+    background-image: linear-gradient(135deg
+    ,#2D6F31, #1F767C, #183973, #2C1873, #531873, #731845, #6F1313);
+    background-size: 500%;
+    animation: fanimado 10s infinite;
+}
+
+@keyframes fanimado{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.text{
+    color: rgb(218, 236, 150);
+    text-align: center;
+    margin: 200px 0;
+    font-size: 38px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    outline: none;
+  text-decoration: none;
+  display: inline-block;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3;
+  color: rgb(255, 255, 255);
+}
+
+a:hover{
+    background-color: rgb(218, 236, 150);
+    color: black;
+
+}
+
+img{
+    height: 100px;
+    justify-content: space-between;
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.btn-neon:hover{
+    background: #e3f073;
+    box-shadow: 00 10px #e3f073, 0 0 40px #e3f073, 0 0 80px #e3f073;
+    transition-delay: 0s;
+}
+
+
+

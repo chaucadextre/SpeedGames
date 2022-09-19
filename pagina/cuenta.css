@@ -1,0 +1,81 @@
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    background-size: cover;
+    backdrop-filter: blur(20xp);
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-neon:hover{
+    background: #e3f073;
+    box-shadow: 00 10px #e3f073, 0 0 40px #e3f073, 0 0 80px #e3f073;
+    transition-delay: 0s;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+label{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    backdrop-filter: blur(20xp);
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: rgb(0, 0, 0);
+    justify-content: space-between;
+    color: #ccc;
+    font-size: 40px;
+    align-items: center;
+}
+
+.logo{
+    height: flex;
+}
+
+.logo img{
+    height: 50px;
+}
